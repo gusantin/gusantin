@@ -6,3 +6,9 @@ with open('arquivo.txt', 'w') as file:
 with open('arquivo.txt' , 'r+') as file:
     conteudo = file.read()
     file.write('\nAdicionando mais conteúdo')
+
+#abrir um arquivo para anexo
+with open('arquivo.txt', 'a') as file:
+    file.write('\nMais uma linha no final do arquivo')
+
+    
