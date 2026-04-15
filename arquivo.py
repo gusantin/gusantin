@@ -30,4 +30,7 @@ with open('arquivo.txt', 'r') as file:
     print(linha1)
     print(linha2)
     print(linha3)
+
+
+
     
